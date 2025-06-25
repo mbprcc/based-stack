@@ -1,5 +1,5 @@
 {
-    "name": "celestial-api",
+    "name": "based-api",
     "main": "src/index.ts",
     "compatibility_date": "2025-03-20",
     "compatibility_flags": [

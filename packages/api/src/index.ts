@@ -5,7 +5,7 @@ import { appRouter } from "./trpc/router";
 import * as schema from "./db/schema";
 import { drizzle, type DrizzleD1Database } from "drizzle-orm/d1";
 import type { Request } from "@cloudflare/workers-types";
-import { ALLOWED_ORIGINS } from "@celestial/shared";
+import { ALLOWED_ORIGINS } from "@based/shared";
 import { type Auth, auth } from "./lib/auth";
 
 // This ensures c.env.DB is correctly typed

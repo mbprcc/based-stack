@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 /**
- * This script sets up the environment files and BETTER_AUTH_SECRET for the @celestial-rose/stack.
+ * This script sets up the environment files and BETTER_AUTH_SECRET for the @based-rose/stack.
  * It:
  * 1. Copies example environment files to their actual environment files if they don't exist
  * 2. Generates a random secret using openssl and updates the BETTER_AUTH_SECRET in the actual environment files
@@ -11,7 +11,7 @@ import { execSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 
-console.log("🌹 Setting up environment files for @celestial-rose/stack...");
+console.log("🌹 Setting up environment files for @based-rose/stack...");
 
 // Define file paths
 const webEnvPath = path.join(process.cwd(), "packages/web/.env");

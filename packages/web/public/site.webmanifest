@@ -1,6 +1,6 @@
 {
-    "name": "@celestial-rose/stack",
-    "short_name": "@celestial-rose/stack",
+    "name": "@based-rose/stack",
+    "short_name": "@based-rose/stack",
     "description": "The Ultimate Full-Stack Meta-Framework for Cloudflare",
     "start_url": "/",
     "display": "standalone",

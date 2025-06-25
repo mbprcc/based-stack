@@ -17,7 +17,7 @@ export default function DashboardPage() {
                         <h2 className="text-xl font-bold">Congratulations! 🎉</h2>
                         <p className="opacity-90">
                             You've successfully accessed this protected page powered by Better Auth. This dashboard is an example of what you can build with the
-                            @celestial-rose/stack.
+                            @based-rose/stack.
                         </p>
                     </div>
                 </div>

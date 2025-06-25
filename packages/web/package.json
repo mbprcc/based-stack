@@ -1,5 +1,5 @@
 {
-    "name": "@celestial/web",
+    "name": "@based/web",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -10,7 +10,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@celestial/shared": "workspace:*",
+        "@based/shared": "workspace:*",
         "@next/env": "^15.2.4",
         "@opennextjs/cloudflare": "^0.5.12",
         "@radix-ui/react-avatar": "^1.1.3",

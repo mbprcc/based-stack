@@ -1,5 +1,5 @@
 {
-    "name": "@celestial/api",
+    "name": "@based/api",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -8,7 +8,7 @@
         "lint": "biome lint src --ext .ts"
     },
     "dependencies": {
-        "@celestial/shared": "workspace:*",
+        "@based/shared": "workspace:*",
         "@hono/trpc-server": "^0.3.4",
         "@trpc/server": "^11.0.0",
         "better-auth": "^1.0.0",

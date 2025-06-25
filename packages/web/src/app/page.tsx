@@ -91,7 +91,7 @@ export default function Home() {
                     <div className="flex-1 md:pr-8 flex flex-col gap-5 w-full">
                         <h1 className="relative text-4xl font-bold tracking-tight sm:text-6xl text-white font-display">
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-violet-500 via-violet-400 to-purple-400">
-                                @celestial-rose/stack
+                                @based-rose/stack
                             </span>
                         </h1>
                         <div className="flex items-center gap-10">
@@ -102,7 +102,7 @@ export default function Home() {
                                 className="border-purple-300/30 text-purple-100 hover:bg-purple-900/20 hover:text-white transition-all duration-500"
                             >
                                 <a
-                                    href="https://github.com/celestial-rose/stack"
+                                    href="https://github.com/based-rose/stack"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="flex items-center gap-2 text-purple-100/80 hover:text-white transition-colors"
@@ -357,7 +357,7 @@ export default function Home() {
                 {/* Footer Section */}
                 <div className="mt-16 mb-4 text-center">
                     <div className="border-t font-semibold border-purple-800/30 pt-6 text-sm text-purple-300/80">
-                        <p>@celestial-rose/stack, an idea by Celestial &copy; 2025</p>
+                        <p>@based-rose/stack, an idea by Based &copy; 2025</p>
                     </div>
                 </div>
             </div>

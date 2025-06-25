@@ -7,8 +7,8 @@ import { httpLink } from "@trpc/client";
 import { createTRPCReact } from "@trpc/react-query";
 import { useState } from "react";
 import { makeQueryClient } from "./query-client";
-import type { appRouter } from "@celestial/api/src/trpc/router";
-import { TRPC_ENDPOINT } from "@celestial/shared";
+import type { appRouter } from "@based/api/src/trpc/router";
+import { TRPC_ENDPOINT } from "@based/shared";
 
 // Use the inferred type from the router instance instead of the type
 export const trpc = createTRPCReact<typeof appRouter>();

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { LayoutDashboard, Settings, Users, FileText, BarChart3, LogOut } from "lucide-react";
-import { APP_NAME } from "@celestial/shared";
+import { APP_NAME } from "@based/shared";
 
 interface SidebarProps {
     className?: string;

@@ -13,7 +13,7 @@ import {
     APP_OG,
     APP_TWITTER,
     APP_URL,
-} from "@celestial/shared/src/constants";
+} from "@based/shared/src/constants";
 
 const inconsolata = Inconsolata({
     subsets: ["latin"],

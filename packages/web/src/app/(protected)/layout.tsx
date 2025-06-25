@@ -22,7 +22,7 @@ async function Layout({ children }: { children: React.ReactNode }) {
                     <main className="flex-1 overflow-auto p-6">
                         <div className="mx-auto max-w-7xl pt-10">{children}</div>
                         <p className="text-sm font-semibold text-purple-700 mt-10 text-center bg-transparent">
-                            @celestial-rose/stack, an idea by Celestial &copy; 2025
+                            @based-rose/stack, an idea by Based &copy; 2025
                         </p>
                     </main>
                 </div>

@@ -1,4 +1,4 @@
-# 🌌🌹 @celestial-rose/stack
+# 🌌🌹 @based-rose/stack
 ## Hono w/ tRPC - D1 w/ Drizzle - NextJS 15 w/ Better Auth
 
 <div align="center">
@@ -13,7 +13,7 @@
   <a href="#-getting-started">Getting Started</a> •
   <a href="#-opinionated-decisions">Opinionated Decisions</a> •
   <a href="#-acknowledgements">Acknowledgements</a> •
-  <a href="#-why-celestial-in-2025">Why Celestial?</a> •
+  <a href="#-why-based-in-2025">Why Based?</a> •
   <a href="#️-roadmap">Roadmap</a> •
   <a href="#-license">License</a>
 </p>
@@ -72,7 +72,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/celestial-rose/stack.git
+git clone https://github.com/based-rose/stack.git
 
 # Navigate to the project
 cd stack
@@ -179,10 +179,10 @@ The integration is handled through the [`@opennextjs/cloudflare`](https://github
 
 ## 📁 Repository Structure
 
-The @celestial-rose/stack is organized as a monorepo with a clear separation of concerns:
+The @based-rose/stack is organized as a monorepo with a clear separation of concerns:
 
 ```
-celestial-rose-stack/
+based-rose-stack/
 ├── packages/              # Main code packages
 │   ├── api/               # Backend API (Hono + tRPC)
 │   │   ├── src/
@@ -276,7 +276,7 @@ One of the key benefits of this monorepo structure is the end-to-end type safety
 
 ## 🧠 Opinionated Decisions
 
-The @celestial-rose/stack makes several opinionated technical decisions to optimize for developer experience and deployment efficiency:
+The @based-rose/stack makes several opinionated technical decisions to optimize for developer experience and deployment efficiency:
 
 - **No Better Auth migrations → Full Drizzle schema**: We use Drizzle for all database schema management, including auth tables, for a unified approach to database management.
 - **No Drizzle-kit push → Wrangler execute**: Direct database operations through Wrangler for better integration with Cloudflare's ecosystem.
@@ -294,7 +294,7 @@ The @celestial-rose/stack makes several opinionated technical decisions to optim
 Special thanks to Theo [@theo](https://twitter.com/theo) for laying the foundation with the revolutionary [T3 Stack](https://create.t3.gg/). Also grateful to [tRPC](https://trpc.io/) and [Tanstack Query](https://tanstack.com/query) for building such amazing libraries that make type-safe development a joy.
 
 
-## 💫 Why Celestial in 2025?
+## 💫 Why Based in 2025?
 
 ### Batteries Included
 No more reinventing the wheel or setting up boilerplate for every project. Everything you need is included and preconfigured, making it your one-stop solution for modern web development.
@@ -313,7 +313,7 @@ The modular architecture allows your applications to grow without becoming unwie
 
 ## 🗺️ Roadmap
 
-The @celestial-rose/stack is continuously evolving. Here are the key features and improvements planned for future releases:
+The @based-rose/stack is continuously evolving. Here are the key features and improvements planned for future releases:
 
 ### Enhanced SST Integration
 - While we already use OpenNext for Cloudflare deployment, future plans include deeper SST integration:
@@ -344,4 +344,4 @@ We welcome contributions and suggestions for the roadmap. Feel free to open issu
 
 ## 📄 License
 
-@celestial-rose/stack is [MIT licensed](./LICENSE).
+@based-rose/stack is [MIT licensed](./LICENSE).

@@ -1,5 +1,5 @@
 import { betterAuth } from "better-auth";
-import { emailOTP } from "better-auth/plugins";
+import { emailOTP, roles } from "better-auth/plugins";
 import { ALLOWED_ORIGINS, APP_NAME } from "../constants";
 import type { TypedEnv } from "../types";
 import { Resend } from "resend";
@@ -107,6 +107,22 @@ export const sharedAuth = ({
       `,
                     });
                 },
+            }),
+            roles({
+                roles: [
+                    {
+                        name: "admin",
+                        description: "Administrator with full access",
+                    },
+                    {
+                        name: "user",
+                        description: "Regular user with limited access",
+                    },
+                    {
+                        name: "moderator",
+                        description: "Moderator with content management access",
+                    },
+                ],
             }),
         ],
     });

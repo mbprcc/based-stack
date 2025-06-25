@@ -4,6 +4,7 @@ import * as schema from "../db/schema";
 // Import route definitions
 import { z } from "zod";
 import { userRouter } from "./routes/users";
+import { roleRouter } from "./routes/roles";
 
 // Create a new tRPC instance
 export const t = initTRPC.context<HonoContext>().create();
@@ -14,6 +15,7 @@ export const publicProcedure = t.procedure;
 // Create the app router
 export const appRouter = router({
     users: userRouter,
+    roles: roleRouter,
     hello: t.procedure.query(() => {
         return "Hello 👋 from tRPC";
     }),

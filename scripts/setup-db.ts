@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 
 /**
- * This script sets up the D1 database for the @celestial-rose/stack.
+ * This script sets up the D1 database for the @based-rose/stack.
  * It creates a new D1 database and updates the wrangler.jsonc files with the database ID and name.
  * It also updates the package.json file to use the same database name in the migrate scripts.
  */
@@ -15,7 +15,7 @@ if (!fs.existsSync("scripts")) {
     fs.mkdirSync("scripts");
 }
 
-console.log("🌹 Setting up @celestial-rose/stack D1 database...");
+console.log("🌹 Setting up @based-rose/stack D1 database...");
 
 // Function to get user input
 async function prompt(question: string, defaultValue?: string): Promise<string> {
@@ -45,7 +45,7 @@ try {
     }
 
     // Prompt for database name
-    const dbName = await prompt("Enter the database name", "celestial-db");
+    const dbName = await prompt("Enter the database name", "based-db");
 
     // Create a new D1 database
     console.log(`Creating D1 database with name: ${dbName}...`);

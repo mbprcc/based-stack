@@ -2,7 +2,7 @@ import "server-only"; // <-- ensure this file cannot be imported from the client
 import { createHydrationHelpers } from "@trpc/react-query/rsc";
 import { cache } from "react";
 import { makeQueryClient } from "./query-client";
-import { type appRouter, createCallerFactory } from "@celestial/api/src/trpc/router";
+import { type appRouter, createCallerFactory } from "@based/api/src/trpc/router";
 import { getCloudflareContext } from "@opennextjs/cloudflare";
 import { drizzle } from "drizzle-orm/d1";
 import * as schema from "../../../api/src/db/schema";

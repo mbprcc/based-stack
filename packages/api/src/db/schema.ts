@@ -51,6 +51,26 @@ export const verification = sqliteTable("verification", {
     updatedAt: text("updatedAt"),
 });
 
+// Roles and permissions tables for Better Auth
+export const role = sqliteTable("role", {
+    id: text("id").notNull().primaryKey(),
+    name: text("name").notNull().unique(),
+    description: text("description"),
+    createdAt: text("createdAt").notNull(),
+    updatedAt: text("updatedAt").notNull(),
+});
+
+export const userRole = sqliteTable("userRole", {
+    id: text("id").notNull().primaryKey(),
+    userId: text("userId")
+        .notNull()
+        .references(() => user.id),
+    roleId: text("roleId")
+        .notNull()
+        .references(() => role.id),
+    createdAt: text("createdAt").notNull(),
+});
+
 // Posts table (example)
 export const post = sqliteTable("post", {
     id: text("id").primaryKey(),

@@ -1,5 +1,5 @@
 import { db } from "../../src/db";
-import { sharedAuth } from "@celestial/shared/src/lib/auth";
+import { sharedAuth } from "@based/shared/src/lib/auth";
 import { typedEnv } from "./env";
 
 export const auth = sharedAuth({

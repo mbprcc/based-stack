@@ -5,8 +5,8 @@ export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost
 export const TRPC_ENDPOINT = `${API_BASE_URL}/api/trpc`;
 export const THEME_COLOR = "#2d1e5e";
 // Application
-export const APP_NAME = "@celestial-rose/stack";
-export const APP_TITLE = "@celestial-rose/stack";
+export const APP_NAME = "@based-rose/stack";
+export const APP_TITLE = "@based-rose/stack";
 export const APP_DESCRIPTION = "The Ultimate Full-Stack Meta-Framework for Cloudflare";
 export const APP_VERSION = "0.1.0";
 export const APP_URL = "https://your-domain.dev";

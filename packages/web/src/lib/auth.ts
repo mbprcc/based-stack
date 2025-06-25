@@ -1,8 +1,8 @@
 // biome-ignore-all lint/style/noNonNullAssertion:
 // TODO validate env using t3-oss/t3-env
-import { API_BASE_URL } from "@celestial/shared";
-import { sharedAuth } from "@celestial/shared/src/lib/auth";
-import { initDbConnection } from "@celestial/shared/src/lib/db";
+import { API_BASE_URL } from "@based/shared";
+import { sharedAuth } from "@based/shared/src/lib/auth";
+import { initDbConnection } from "@based/shared/src/lib/db";
 
 export const auth = (db: D1Database) =>
     sharedAuth({

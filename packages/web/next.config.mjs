@@ -8,7 +8,7 @@ initOpenNextCloudflareForDev();
 const nextConfig = {
     /* config options here */
     reactStrictMode: true,
-    transpilePackages: ["@celestial/shared"],
+    transpilePackages: ["@based/shared"],
     images: {
         domains: ["images.unsplash.com"],
     },
