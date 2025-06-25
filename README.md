@@ -14,6 +14,7 @@
   <a href="#-opinionated-decisions">Opinionated Decisions</a> •
   <a href="#-acknowledgements">Acknowledgements</a> •
   <a href="#-why-based-in-2025">Why Based?</a> •
+  <a href="#-changelog">Changelog</a> •
   <a href="#️-roadmap">Roadmap</a> •
   <a href="#-license">License</a>
 </p>
@@ -310,6 +311,57 @@ Every component of the stack is optimized for performance, from React 19 to Hono
 
 ### Scalability Without Complexity
 The modular architecture allows your applications to grow without becoming unwieldy, with clear patterns for organizing code.
+
+## 📋 Changelog
+
+### v1.1.0 - Latest Updates (June 2025)
+
+#### 🔐 Better Auth Roles System
+- **NEW**: Complete role-based access control system
+- **Added**: Admin, Moderator, User roles with hierarchical permissions
+- **Added**: React hooks (`useRoleCheck`, `useRoleGuard`) for UI role management
+- **Added**: Role Guard components (`AdminGuard`, `ModeratorGuard`, `UserGuard`)
+- **Added**: tRPC routes for role management with admin-only access
+- **Added**: Database migration for roles and user-role relationships
+
+#### 🚀 Dependency Updates
+- **@opennextjs/cloudflare**: `0.5.12` → `1.3.1`
+  - Cache interception for better ISR/SSG performance
+  - Remote patterns for image optimization
+  - Performance improvements and bundle size reduction
+- **wrangler**: `4.4.0` → `4.21.2` (Latest Cloudflare Workers CLI)
+- **kysely**: `0.27.6` → `0.28.2`
+  - Dynamic table references with `db.dynamic.table()`
+  - Manual transaction control (commit/rollback)
+  - Better TypeScript performance
+- **kysely-d1**: `0.3.0` → `4.0.0` (Compatibility with Kysely 0.28.x)
+
+#### ⚡ Performance Optimizations
+- **Enhanced**: Next.js config with `defineCloudflareConfig`
+- **Added**: Cache interception for faster page loads
+- **Optimized**: Route preloading behavior to reduce cold start CPU usage
+- **Improved**: Image optimization with remote patterns
+
+#### 🎨 Rebranding
+- **Changed**: Project name from "celestial" to "based" across all packages
+- **Updated**: All import statements, package names, and documentation
+- **Maintained**: Full backward compatibility during transition
+
+### v1.0.0 - Initial Release
+
+#### 🏗️ Core Architecture
+- **Monorepo**: Complete workspace setup with `@based/api`, `@based/web`, `@based/shared`
+- **Better Auth**: Email OTP authentication with secure session management
+- **tRPC**: End-to-end type safety between frontend and backend
+- **Drizzle ORM**: Type-safe database operations with D1 integration
+- **Next.js 15**: Latest React features with App Router
+- **Hono**: Lightweight, fast web framework for Cloudflare Workers
+
+#### 🚀 Deployment Ready
+- **Cloudflare Workers**: Serverless backend deployment
+- **Cloudflare Pages**: Frontend deployment with OpenNext.js
+- **D1 Database**: Serverless SQLite database
+- **Environment**: Complete setup scripts and configuration
 
 ## 🗺️ Roadmap
 
